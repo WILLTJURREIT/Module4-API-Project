@@ -25,6 +25,8 @@ h3 {
   color: #ffffff;
 }
 
+/* HEADER */
+
 header {
   background: #024a7d;
   color: white;
@@ -44,6 +46,7 @@ header p {
   font-size: 1rem;
 }
 
+/* MAIN */
 main {
   max-width: 950px;
   margin: 2rem auto;
@@ -86,7 +89,7 @@ input[type="search"]:focus {
   border-color: #2ea8ff;
   box-shadow: 0 0 4px #2ea8ff;
 }
-
+/* ARTICLES */
 .articles {
   display: grid;
   grid-template-columns: 1fr;
@@ -109,6 +112,8 @@ article h3 {
 article p {
   color: #d1d5db;
 }
+
+/* BUTTONS */
 
 .filter-btn {
   margin-top: 0.5rem;
@@ -141,12 +146,13 @@ article p {
   background: #1b8ad6;
 }
 
+/* RESPONSIVE */
 @media (min-width: 700px) {
   .articles {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
+/* FOOTER */
 footer {
   background: #024a7d;
   color: white;
