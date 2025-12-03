@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Top Stories Hub</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Top Stories Hub</h1>
+      <p>Biggest news stories.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome to Top Stories Hub</h2>
+        <p>
+          This is a web app where we will use a public API to present and use
+          the data available for educational purposes.
+        </p>
+      </section>
+
+      <!-- CONTROLS -->
+      <section>
+        <h2>Browse Top Stories</h2>
+
+        <div class="form-group">
+          <label for="section-select">Choose a news section:</label>
+          <select id="section-select">
+            <option>Business</option>
+            <option>Arts</option>
+            <option>World</option>
+            <option>Technology</option>
+            <option>Science</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="keyword">Keyword filter:</label>
+          <input type="search" id="keyword" placeholder="Search by keyword" />
+        </div>
+
+        <p>
+          *Note: In this milestone, these controls do not yet load data. This
+          mockup Milestone 0 only demonstrates the planned interactive layout.*
+        </p>
+      </section>
+      <section>
+        <h2>Example Stories</h2>
+
+        <div class="articles">
+          <article>
+            <img src="#" alt="Placeholder image" />
+            <h3>New Innovations</h3>
+            <p>Highlights from global technology.</p>
+            <a href="#" class="save-btn">Save Story</a>
+          </article>
+
+          <article>
+            <img src="#" alt="Placeholder image" />
+            <h3>World Leaders</h3>
+            <p>A look at upcoming global economic and social events.</p>
+            <a href="#" class="save-btn">Save Story</a>
+          </article>
+
+          <article>
+            <img src="#" alt="Placeholder image" />
+            <h3>Arts</h3>
+            <p>Performers and creators</p>
+            <a href="#" class="save-btn">Save Story</a>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h2>Saved Stories</h2>
+        <p>In a later milestone, saved articles will appear here.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Module 4</p>
+      <p>
+        This app uses the New York Times Top Stories API and is for educational
+        purposes only.
+      </p>
+    </footer>
+  </body>
+</html>
