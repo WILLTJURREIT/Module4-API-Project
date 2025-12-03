@@ -26,7 +26,7 @@ h3 {
 }
 
 header {
-  background: #2ea8ff;
+  background: #024a7d;
   color: white;
   padding: 1.5rem 1rem;
   text-align: center;
@@ -110,6 +110,22 @@ article p {
   color: #d1d5db;
 }
 
+.filter-btn {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  background: #2ea8ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background: #1b8ad6;
+}
+
 .save-btn {
   display: inline-block;
   margin-top: 0.5rem;
@@ -132,7 +148,7 @@ article p {
 }
 
 footer {
-  background: #2ea8ff;
+  background: #024a7d;
   color: white;
   text-align: center;
   padding: 1.5rem 1rem;
