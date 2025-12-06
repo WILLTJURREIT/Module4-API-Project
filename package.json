@@ -1,0 +1,24 @@
+{
+  "name": "module4-api-project",
+  "version": "1.0.0",
+  "description": "The goal of this milestone is to create a static HTML/CSS mockup of the web application I plan to build using the New York Times Top Stories API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WILLTJURREIT/Module4-API-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WILLTJURREIT/Module4-API-Project/issues"
+  },
+  "homepage": "https://github.com/WILLTJURREIT/Module4-API-Project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
