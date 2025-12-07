@@ -46,6 +46,27 @@ header p {
   font-size: 1rem;
 }
 
+nav {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+nav button {
+  background: #2ea8ff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  margin: 0 0.4rem;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+nav button:hover {
+  background: #1b8ad6;
+}
+
 /* MAIN */
 main {
   max-width: 950px;
@@ -54,7 +75,7 @@ main {
 }
 
 section {
-  background: #1d1f23; /* dark gray card */
+  background: #1d1f23;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 16px;
@@ -115,7 +136,8 @@ article p {
 
 /* BUTTONS */
 
-.filter-btn {
+.filter-btn,
+.save-btn {
   margin-top: 0.5rem;
   padding: 0.7rem 1rem;
   background: #2ea8ff;
@@ -127,22 +149,33 @@ article p {
   cursor: pointer;
 }
 
-.filter-btn:hover {
+.filter-btn:hover,
+.save-btn:hover {
   background: #1b8ad6;
 }
 
 .save-btn {
   display: inline-block;
+  text-decoration: none;
+}
+
+.save-btn:hover {
+  background: #1b8ad6;
+}
+
+.read-more-btn {
+  display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.5rem 0.9rem;
+  padding: 0.7rem 1rem;
   background: #2ea8ff;
   color: white;
   text-decoration: none;
   border-radius: 8px;
+  font-size: 1rem;
   font-weight: 600;
+  cursor: pointer;
 }
-
-.save-btn:hover {
+.read-more-btn:hover {
   background: #1b8ad6;
 }
 
