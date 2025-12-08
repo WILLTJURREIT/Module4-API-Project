@@ -97,4 +97,14 @@ keywordBtn.addEventListener("click", () => {
   }
 });
 
+// save the story to local storage
+function saveStory(story) {
+  const saved = JSON.parse(localStorage.getItem("savedStories") || "[]");
+
+  saved.push(story);
+
+  localStorage.setItem("savedStories", JSON.stringify(saved));
+}
+
+
 fetchTopStories("world");
