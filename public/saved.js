@@ -2,9 +2,10 @@
 
 
 // load the stories from the local storage and render them in the saved 
-function loadSavedStories() {
+async function loadSavedStories() {
     //store into references and parses the JSON data to javascript
-  const saved = JSON.parse(localStorage.getItem("savedStories") || "[]");
+const saved = await axios.get("/api/saved-stories").then(res => res.data);
+
   const container = document.getElementById("saved-list");
 
   //clear the old content - no duplicate data
@@ -50,12 +51,8 @@ function loadSavedStories() {
   });
 }
 // delete function for the saved stories, felt correct to place in this file. 
-function deleteStory(index) {
-  const saved = JSON.parse(localStorage.getItem("savedStories") || "[]");
-  
-// remove the one story
-  saved.splice(index, 1); // remove the one story
-  localStorage.setItem("savedStories", JSON.stringify(saved));
+async function deleteStory(index) {
+await axios.post("/api/delete-story", { index });
 
   // refresh the list
   loadSavedStories(); 

@@ -21,3 +21,14 @@ Steps taken:
 17. Fix issues in saved.js where saved stories were not rendering. I added comments, and re-organized when loadSavedStories() gets called so that it works every time the saved page loads.
 18. Fix issues with the keyword filter by adjusting references and making sure the filter only runs on the current articles being displayed. Also added a feedback message when no keyword results are found.
 19. checked everything displays correctly, including images, titles, and abstracts.
+
+### **Struggles & What I Learned**
+
+My biggest struggle in this project was getting the saved stories to actually appear on the saved page. The save story button worked and showed the alert, but nothing was being stored. I kept thinking the backend or my code was broken.
+
+The real issue was that I was not using the express server to open my files, I did not realize I needed to go through localhost:3000
+
+Because of that, Axios couldn’t send POST requests, and I kept getting errors, and it was jsut not working.
+
+Once I ran the server properly and opened the site through the local hosteverything worked.
+I also struggles with making my JSON file have the data stored into it, my first attempt I did not feel was what was required, so I changed my code so the data would use the database as persistent storage.

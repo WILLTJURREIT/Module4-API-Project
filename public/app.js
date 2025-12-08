@@ -97,14 +97,14 @@ keywordBtn.addEventListener("click", () => {
   }
 });
 
-// save the story to local storage
-function saveStory(story) {
-  const saved = JSON.parse(localStorage.getItem("savedStories") || "[]");
-
-  saved.push(story);
-
-  localStorage.setItem("savedStories", JSON.stringify(saved));
+async function saveStory(story) {
+    console.log("SaveStory() called — sending to backend:", story);
+  try {
+    await axios.post("/api/save-story", story);
+    console.log("SERVER RESPONSE:", response.data);
+  } catch (err) {
+    console.error("Error saving story:", err);
+  }
 }
-
 
 fetchTopStories("world");
