@@ -32,3 +32,6 @@ Because of that, Axios couldn’t send POST requests, and I kept getting errors,
 
 Once I ran the server properly and opened the site through the local hosteverything worked.
 I also struggles with making my JSON file have the data stored into it, my first attempt I did not feel was what was required, so I changed my code so the data would use the database as persistent storage.
+
+Final note: To run this int he browser, if I get an error "Error: Cannot find module 'express" then I need to run "npm install" in the terminal. after npm is installed I can enter "node server.js", and this will provide feed back that the server is running "The server is running http://localhost:3000
+REQUEST RECEIVED at /api/save-story". Then I am able to type localhost:3000 into the url text box, and the app will appear and work as inteneded.

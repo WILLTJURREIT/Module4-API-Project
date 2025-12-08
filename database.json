@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "section": "world",
+    "subsection": "americas",
+    "title": "The U.S. Gave Mexico a List of Russian Spies. Mexico Let Them Stay.",
+    "abstract": "Moscow has ramped up covert operations in Mexico, with spies meeting handlers in its bustling capital and seaside resorts, U.S. officials say.",
+    "url": "https://www.nytimes.com/2025/12/08/world/americas/mexico-russia-spies.html",
+    "uri": "nyt://article/84eecb26-e887-5d96-81c7-0cffc190527e",
+    "byline": "By Maria Abi-Habib",
+    "item_type": "Article",
+    "updated_date": "2025-12-08T13:54:56-05:00",
+    "created_date": "2025-12-08T11:37:28-05:00",
+    "published_date": "2025-12-08T11:37:28-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+      "United States International Relations",
+      "Politics and Government",
+      "Russian Invasion of Ukraine (2022)",
+      "Espionage and Intelligence Services"
+    ],
+    "org_facet": [
+      "Central Intelligence Agency",
+      "Morena (Mexican Political Party)"
+    ],
+    "per_facet": [
+      "Lopez Obrador, Andres Manuel",
+      "Ebrard, Marcelo",
+      "Sheinbaum, Claudia"
+    ],
+    "geo_facet": [
+      "Mexico",
+      "Mexico City (Mexico)",
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "multimedia": [
+      {
+        "url": "https://static01.nyt.com/images/2025/11/24/world/00int-mexico-russia/00int-mexico-russia-superJumbo.jpg",
+        "format": "Super Jumbo",
+        "height": 1366,
+        "width": 2048,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "The Russian Embassy in Mexico City is one of Moscow’s largest around the world, according to its Foreign Ministry, although the Kremlin and Mexico have few economic, cultural or military ties.",
+        "copyright": "Marian Carrasquero for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2025/11/24/world/00int-mexico-russia/00int-mexico-russia-threeByTwoSmallAt2X.jpg",
+        "format": "threeByTwoSmallAt2X",
+        "height": 400,
+        "width": 600,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "The Russian Embassy in Mexico City is one of Moscow’s largest around the world, according to its Foreign Ministry, although the Kremlin and Mexico have few economic, cultural or military ties.",
+        "copyright": "Marian Carrasquero for The New York Times"
+      },
+      {
+        "url": "https://static01.nyt.com/images/2025/11/24/world/00int-mexico-russia/00int-mexico-russia-thumbLarge.jpg",
+        "format": "Large Thumbnail",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "The Russian Embassy in Mexico City is one of Moscow’s largest around the world, according to its Foreign Ministry, although the Kremlin and Mexico have few economic, cultural or military ties.",
+        "copyright": "Marian Carrasquero for The New York Times"
+      }
+    ],
+    "short_url": ""
+  }
+]
